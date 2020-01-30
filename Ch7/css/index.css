@@ -1,0 +1,14 @@
+body {
+    font-family: Microsoft JhengHei;
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+.col-lg-5 {
+    background-color: rgba(0, 0, 0, 0.62);
+}
+.text {
+    height: 100vh;
+}

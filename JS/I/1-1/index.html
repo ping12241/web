@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>里程計算</title>
+    <link href="css/css.css" rel="stylesheet" type="text/css">
+    <script src="js/js.js"></script>
+</head>
+<body>
+    <header>
+        <h2>1.數字處理【里程計算】</h2>
+    </header>
+    <div class="wrapper">
+        <table>
+            <tr>
+                <th>里程(公尺)</th>
+                <th>費用</th>
+            </tr>
+            <tr>
+                <td><1500</td>
+                <td>70元</td>
+            </tr>
+            <tr>
+                <td>>1500</td>
+                <td>每多500公尺+5元</td>
+            </tr>
+            <tr>
+                <td colspan="2">*不足500公尺以500公尺計算</td>
+            </tr>
+        </table>
+        <br>
+        <div class="content">
+            <div class="text">
+                <label>請輸入里程(公里)[小數點可精確至公尺]：</label>
+                <br>
+                <input type="text" id="km">
+                <button onclick="taxi()">確認</button>
+            </div>
+            <div class="text">
+                <a>車資=<span id="cost"></span></a>
+            </div>
+        </div>
+    </div>  
+</body>
+</html>

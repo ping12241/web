@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>滑鼠事件</title>
+    <link href="css/css.css" rel="stylesheet" type="text/css">
+    <script src="js/js.js"></script>
+</head>
+<body>
+    <header>
+        <h2>4.滑鼠事件</h2>
+    </header>
+    <div class="wrapper">
+        <div class="content">
+            <button onclick="today()">今天星期幾</button>
+            <br><br>
+            <input type="text" onblur="textonblur()">
+            <br><br>
+            <select onchange="change(this.options[this.selectedIndex].value)">
+                <option value="選項A">選項A</option>
+                <option value="選項B">選項B</option>
+            </select>
+        </div>
+    </div>
+</body>
+</html>

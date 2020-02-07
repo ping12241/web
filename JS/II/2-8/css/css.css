@@ -1,0 +1,132 @@
+* {
+    font-family: Microsoft JhengHei;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    margin-top: 3%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box {
+    width: 750px;
+    height: 80px;
+    margin-bottom: 10px;
+    background: rgb(188, 211, 255);
+    box-shadow: 0px 4px 6px #cccccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box_in {
+    width: 700px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box_content {
+    width: 480px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.search_box {
+    width: 180px;
+    padding: 0px 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box_in input {
+    width: 180px;
+    height: 35px;
+    border: 1px solid #a3a3a3;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 3px;
+}
+.search_box input {
+    width: 100px;
+}
+::-webkit-input-placeholder {
+    color: rgb(121, 121, 121);
+    font-size: 14px;
+}
+.box_in button {
+    width: 60px;
+    height: 34px;
+    color: white;
+    font-weight: bold;
+    border: 0;
+    border-radius: 3px;
+    background: #436fce;
+}
+.search_box button {
+    background: #5f5f5f;
+}
+button:hover {
+    cursor: pointer;
+}
+.content {
+    width: 720px;
+}
+table {
+    border-spacing: 0px;
+    margin-top: 10px;
+    text-align: center;
+}
+table thead {
+    width: 50%; 
+} 
+table thead th {
+    height: 35px;
+    border-top: 1px solid #2967db;
+    border-bottom: 1px solid #2967db;
+}
+table th.th_1 {
+    width: 90px;
+}
+table th.th_2 {
+    width: 280px;
+}
+table th.th_3 {
+    width: 300px;
+}
+table th.th_4 {
+    width: 150px;
+}
+table tbody td {
+    height: 40px;
+    border-bottom: 1px solid #a3a3a3;
+    text-align: content;
+    padding: 10px;
+}
+table tbody button {
+    width: 40px;
+    height: 28px;
+    border-radius: 3px;
+    margin-right: 10px;
+    border: 0px;
+    color: white;
+    font-weight: bold;
+    background: rgb(255, 64, 64);
+}
+table tbody button.edit {
+    background: rgb(45, 131, 211);
+}
+table tbody button.check {
+    background: rgb(45, 211, 45);
+}
+input.edit_content {
+    width: 180px;
+}

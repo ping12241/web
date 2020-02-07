@@ -1,0 +1,31 @@
+* {
+    font-family: Microsoft JhengHei;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    margin-top: 3%;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.content {
+    width: 350px;
+    background: rgb(230, 244, 255);
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px #cccccc;
+}
+li {
+    font-weight: bold;
+}
+.content a {
+    font-weight: bold;
+}

@@ -1,0 +1,47 @@
+* {
+    font-family: Microsoft JhengHei;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    margin-top: 3%;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box {
+    width: 350px;
+    padding-left: 22px;
+    margin-bottom: 10px;
+}
+.content {
+    width: 300px;
+}
+.text {
+    margin-top: 10px;
+}
+label {
+    font-size: 14px;
+}
+input {
+    width: 200px;
+    height: 25px;
+    padding: 5px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.box label {
+    font-weight: bold;
+    font-size: 16px;
+}
+button:hover {
+    cursor: pointer;
+}

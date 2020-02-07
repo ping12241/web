@@ -1,0 +1,30 @@
+* {
+    font-family: Microsoft JhengHei;
+}
+header {
+    width: 100%;
+    margin-top: 3%;
+    text-align: center;
+}
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.content {
+    width: 300px;
+}
+table {
+    width: 300px;
+    text-align: center;
+    border: solid 1px #000000;
+}
+table td,
+table th {
+    border: solid 1px #000000;
+}
+.text {
+    height: 50px;
+}

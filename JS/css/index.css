@@ -1,0 +1,29 @@
+* {
+    font-family: Microsoft JhengHei;
+}
+header {
+    width: 100%;
+    margin-top: 3%;
+    text-align: center;
+}
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.content {
+    width: 60%;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.text {
+    text-align: center;
+    width: 200px;
+}
+button {
+    width: 100px;
+    height: 30px;
+}

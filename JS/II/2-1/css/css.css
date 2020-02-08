@@ -13,7 +13,7 @@ header {
     align-items: center;
 }
 .content {
-    width: 20%;
+    width: 22%;
     display: flex;
     flex-direction: column;
     align-content: space-around;

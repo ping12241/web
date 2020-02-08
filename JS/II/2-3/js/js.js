@@ -1,10 +1,26 @@
-function array() {
-    var array=[
-            [3,1,2], 
-            [8,5,4],
-        ];
+window.onload=array;
+
+var i,j,topic="";
+var array=[[0,0,0],
+           [0,0,0]
+];
+for (i = 0; i <= 1; i++) {
+    topic += "[";
+    for (j = 0; j <= 2; j++) {
+        array[i][j] = Math.floor(Math.random() * 100) + 1;
+        topic += array[i][j] + " , ";
+    }
+    topic += "]<br>";
+}
+
+function array () {
+    document.getElementById("array").innerHTML = topic;
+}
+
+
+function flip() {
     var arr=Array(2);
-    var i,j,ans="";
+    var ans="";
     for (i=0;i<=2;i++) {
         arr[i]=Array(1);
     }

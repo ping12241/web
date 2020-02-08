@@ -1,47 +1,59 @@
+window.onload=array;
+
+var i;
+var arr=[];
+for (i=0;i<=6;i++) {
+    arr[i]=Math.floor((Math.random()*100))+1;
+}
+
+function array () {
+    document.getElementById("array").innerHTML = arr;
+}
+
 function max() {
-    var A=[12,34,50,47,23,59,1];
     var arrayMax;
-    arrayMax=Math.max(...A);
+    arrayMax=Math.max(...arr);
     document.getElementById("max").innerHTML = "=["+arrayMax+"]";
 }
         
 function min() {
-    var A=[12,34,50,47,23,59,1];
     var arrayMin;
-    arrayMin=Math.min(...A);
+    arrayMin=Math.min(...arr);
     document.getElementById("min").innerHTML = "=["+arrayMin+"]";
 }
 
 function sort() {
-    var A=[12,34,50,47,23,59,1];
-    A.sort();
-    document.getElementById("sort").innerHTML = "=["+A+"]";
+    arr.sort(function(a, b){return a - b});
+    document.getElementById("sort").innerHTML = "=["+arr+"]";
 }
 
 function search() {
-    var A=[12,34,50,47,23,59,1];
-    document.getElementById("search").innerHTML = "=["+A.indexOf(34)+"]";
+    var s =arr.indexOf(34);
+    if (s == -1) {
+        document.getElementById("search").innerHTML = "=找不到34值"; 
+    }
+    else {
+        document.getElementById("search").innerHTML = "=["+s+"]";
+    }
+    
+    
 }
 
 function reverse() {
-    var A=[12,34,50,47,23,59,1];
-    document.getElementById("reverse").innerHTML = "=["+A.reverse()+"]";
+    document.getElementById("reverse").innerHTML = "=["+arr.reverse()+"]";
 }
 
 function push() {
-    var A=[12,34,50,47,23,59,1];
-    A.push("66");
-    document.getElementById("push").innerHTML = "=["+A+"]";
+    arr.push("66");
+    document.getElementById("push").innerHTML = "=["+arr+"]";
 }
 
 function pop() {
-    var A=[12,34,50,47,23,59,1];
-    A.pop();
-    document.getElementById("pop").innerHTML = "=["+A+"]";
+    arr.pop();
+    document.getElementById("pop").innerHTML = "=["+arr+"]";
 }
 
 function del() {
-    var A=[12,34,50,47,23,59,1];
-    delete A[3];
-    document.getElementById("del").innerHTML = "=["+A+"]";
+    delete arr[3];
+    document.getElementById("del").innerHTML = "=["+arr+"]";
 }

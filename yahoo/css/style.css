@@ -604,8 +604,6 @@ table td a:hover {
 }
 .ad_contents {
     width: 100%;
-    height: 50%;
-    padding: 10px 15px;
     background-color: white;
     border-left: 1px solid #cecece;
     border-right: 1px solid #cecece;

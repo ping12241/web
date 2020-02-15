@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yahoo奇摩</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="img/yahoo.png" rel="icon" type="img/icon">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/js.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="top_nav">
+                <div class="top_nav_left">
+                    <ul>
+                        <li><a href="#"><img src="img/home.png">首頁</a></li>
+                        <li><a href="#">信箱</a></li>
+                        <li><a href="#">新聞</a></li>
+                        <li><a href="#">股市</a></li>
+                        <li><a href="#">氣象</a></li>
+                        <li><a href="#">運動</a></li>
+                        <li><a href="#">Yahoo TV</a></li>
+                        <li><a href="#">娛樂</a></li>
+                        <li><a href="#">購物中心</a></li>
+                        <li><a href="#">商城</a></li>
+                        <li><a href="#">拍賣</a></li>
+                        <li class="more"><a href="#">更多<img src="img/back.png"></a></li>
+                    </ul>
+                </div>
+                <div class="top_nav_right">
+                    <ul>
+                        <li><a href="#">升級信箱App 一鍵退訂電子報</a></li>
+                        <li id="language" class="tw"></li>
+                    </ul>
+                </div>
+                <div id="lang">
+                    <div class="word">世界Yahoo！</div>
+                    <div class="language">
+                        <table>
+                            <tr>
+                                <td class="tittle">亞太地區</td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Australia</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">香港</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">India</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Indonesia</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">New Zealand</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Philippines</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Singapore</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Malaysia</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">臺灣 ✔</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Việt Nam</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">日本</a></td>
+                            </tr>
+                        </table>
+                        <table>
+                            <tr>
+                                <td class="tittle">澳洲地區</td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">België (nl)</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Belgique (fr)</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Deutschland</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">France</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Ελλάδα</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Ireland</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Italia</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">România</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">España</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Sverige</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">United Kingdom</a></td>
+                            </tr>
+                        </table>
+                        <table>
+                            <tr>
+                                <td class="tittle">中東及非洲地區</td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Maktoob (eng)</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">مكتوب (العربية)</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">South Africa</a></td>
+                            </tr>
+                            <tr>
+                                <td class="tittle">北美洲地區</td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Canada (eng)</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Canada (fr)</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">México</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">US (eng)</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Estados Unidos (es)</a></td>
+                            </tr>
+                        </table>
+                        <table>
+                            <tr>
+                                <td class="tittle">南美洲地區</td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Argentina</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Brasil</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Chile</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Colombia</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Perú</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Venezuela</a></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="bar">
+                <dvi class="bar_in">
+                    <div class="logo"><a href="#"><img src="img/logo.png"></a></div>
+                    <div class="bar_right">
+                        <div class="bar_top">
+                            <div class="search_in">
+                                <div class="searchbar">
+                                    <input type="text" placeholder="阿屏好可愛">
+                                    <div class="searchbox"><a href="#"><img src="img/search.png"></a></div>
+                                </div>
+                                <div class="searchpen"><a href="#"><img src="img/pencil.png"></a></div>
+                            </div>
+                            <div class="loginbar">
+                                <ul>
+                                    <li class="weather"><a href="#"><img src="img/weather.JPG">台北</a></li>
+                                    <li class="user"><a href="#"><img src="img/user.JPG">登入</a></li>
+                                    <li class="mail"><a href="#"><img src="img/mail.png">信箱</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="hot_search">
+                            <ul>
+                                <li class="hot"><a>熱搜：</a></li>
+                                <li><a href="#">北海道 地震</a></li>
+                                <li><a href="#">鬼怪女星猝逝</a></li>
+                                <li><a href="#">越南疫情</a></li>
+                                <li><a href="#" style="color: red;">新莊中港大排</a></li>
+                                <li><a href="#">礁溪住宿</a></li>
+                                <li><a href="#">日本地震</a></li>
+                                <li><a href="#">湖人vs金塊</a></li>
+                                <li><a href="#">台中住宿</a></li>
+                                <li><a href="#">益生菌</a></li>
+                            </ul>
+                            <span><a href="#">一起辦11上網再抽獎</a></span>
+                        </div>
+                    </div>
+                </dvi>
+            </div>
+        </header>
+        <div class="content">
+            <div class="side_bar">
+                <ul class="side_bar_left">
+                    <li><a href="#" style="color: red;">新聞</a></li>
+                    <li><a href="#">股市</a></li>
+                    <li><a href="#">理財</a></li>
+                    <li><a href="#">運動</a></li>
+                    <li><a href="#">名人娛樂</a></li>
+                    <li><a href="#">電影</a></li>
+                    <li><a href="#">Yahoo<br>TV</a></li>
+                    <li><a href="#">遊戲</a></li>
+                    <li><a href="#">動漫</a></li>
+                    <li><a href="#">日本代購</a></li>
+                    <li><a href="#">字典</a></li>
+                    <li><a href="#">知識+</a></li>
+                    <li><a href="#">3C科技</a></li>
+                    <li><a href="#">信箱</a></li>
+                    <li><a href="#">氣象</a></li>
+                    <li><a href="#">ATM</a></li>
+                    <li><a href="#">公益</a></li>
+                    <li><a href="#">找店+</a></li>
+                    <li><a href="#">訂餐廳</a></li>
+                    <li><a href="#">全部服務 &gt;</a></li>
+                </ul>
+                <ul class="side_bar_right">
+                    <li><a href="#">拍賣</a></li>
+                    <li><a href="#">購物中心</a></li>
+                    <li><a href="#" style="color: red;">超級商城</a></li>
+                    <li><a href="#">生活團購</a></li>
+                    <li><a href="#">每日好康</a></li>
+                    <li><a href="#">汽車機車</a></li>
+                    <li><a href="#">中古車</a></li>
+                    <li><a href="#">保險</a></li>
+                    <li><a href="#">時尚美妝</a></li>
+                    <li><a href="#">房地產</a></li>
+                    <li><a href="#">旅遊</a></li>
+                    <li><a href="#">健康</a></li>
+                    <li><a href="#">星座算命</a></li>
+                    <li><a href="#">APP下載</a></li>
+                    <li><a href="#">網路開店</a></li>
+                    <li><a href="#">買關鍵字</a></li>
+                    <li><a href="#">網路行銷</a></li>
+                    <li><a href="#">聯名卡</a></li>
+                    <li><a href="#">帳號保護</a></li>
+                </ul>
+            </div>
+            <div class="main">
+                <div class="top_news">
+                    <div class="top_news_box"><b>新冠肺炎</b><span></span></div>
+                    <a href="#">新冠肺炎最新疫情發展與防疫撇步 Yahoo報你知 </a>
+                </div>
+                <div class="news">
+                    <div class="news_tittle">
+                        <ul>
+                            <li onmouseover="news1()"><a href="#">焦點</a></li>
+                            <li id="news_tittle_1"><a href="#">焦點</a></li>
+                            <li onmouseover="news2()"><a href="#">運動</a></li>
+                            <li id="news_tittle_2"><a href="#">運動</a></li>
+                            <li onmouseover="news3()"><a href="#">娛樂</a></li>
+                            <li id="news_tittle_3"><a href="#">娛樂</a></li>
+                            <li onmouseover="news4()"><a href="#">新奇</a></li>
+                            <li  id="news_tittle_4"><a href="#">新奇</a></li>
+                            <li onmouseover="news5()"><a href="#">生活</a></li>
+                            <li id="news_tittle_5"><a href="#">生活</a></li>
+                            <li onmouseover="news6()"><a href="#">影音</a></li>
+                            <li id="news_tittle_6"><a href="#">影音</a></li>
+                        </ul>
+                    </div>
+                    <div class="news_content" id="news_content_1">
+                        <div class="news_img">
+                            <a href="#"><img src="img/news1-1.JPG"></a>
+                        </div>
+                        <div class="news_list">
+                            <div class="news_list_text">
+                                <p><a href="#">我續稱「武漢肺炎」陸媒狂轟</a></p>
+                                <span>連3日接力痛批，指台灣無視WHO正式命...</span>
+                            </div>
+                            <div class="news_list_text">
+                                <p><a href="#">我取消免簽報復？菲國：尊重</a></p>
+                                <span>菲維持對台旅行禁令，強調無關「一中政...</span>
+                            </div>
+                            <div class="news_list_text">
+                                <p><a href="#">「我們會先垮」淚訴忍病上工</a></p>
+                                <span>上吐下瀉也不敢請假，鎮守出入境大關的...</span>
+                            </div>
+                            <div class="news_list_text">
+                                <p><a href="#">「口罩用量異常快」醫護議論</a></p>
+                                <span>私下表示是否遭竊或濫用，歎「看到人性...</span>
+                            </div>
+                            <div class="news_list_text">
+                                <p><a href="#">忙防疫 也該修補被破壞性傷害</a></p>
+                                <span>論壇／陸配子女入境問題，以及族群意識...</span>
+                            </div>
+                            <div class="news_list_text">
+                                <p><a href="#">新楓之谷全新職業《開放創角》</a></p>
+                                <span>新楓之谷 Sponsored</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news_content" id="news_content_2">
+                        <div class="news_img">
+                            <a href="#"><img src="img/news1-2.JPG"></a>
+                        </div>
+                        <div class="news_list">
+                            <div class="news_list_text">
+                                <p><a href="#">「破蛋」不夠慘 海尼格再動刀</a></p>
+                                <span>去年被擦棒球集中要害報銷，沒想到今年...</span>
+                            </div>
+                            <div class="news_list_text">
+                                <p><a href="#">喬丹後首人 狀元紀錄夜卻輸球</a></p>
+                                <span>Zion攻下生涯新高32分，前10戰有8場超...</span>
+                            </div>
+                            <div class="news_list_text">
+                                <p><a href="#">致敬！綠軍退休賈奈特5號球衣</a></p>
+                                <span>一向以「綠血人」自居的他，也隨即感謝...</span>
+                            </div>
+                            <div class="news_list_text">
+                                <p><a href="#">對偷暗號一無所知 柯爾拒道歉</a></p>
+                                <span>查普曼也做出回應，強調雖然奧圖維的行...</span>
+                            </div>
+                            <div class="news_list_text">
+                                <p><a href="#">一圓男友籃球夢 放閃就穿這雙</a></p>
+                                <span>純白高統鞋身，鞋舌復古縫線標誌更顯經...</span>
+                            </div>
+                            <div class="news_list_text">
+                                <p><a href="#">對不起！這款2TB超容量USB...</a></p>
+                                <span>COSLAGO Sponsored</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news_content" id="news_content_3">
+                        <div class="news_img">
+                            <a href="#"><img src="img/news1-3.JPG"></a>
+                        </div>
+                        <div class="news_list">
+                            <div class="news_list_text">
+                                <p><a href="#">情人節艾成 王瞳讚：他很棒</a></p>
+                                <span>「他在收店之前有跟我說」透露目前還是...</span>
+                            </div>
+                            <div class="news_list_text">
+                                <p><a href="#">42歲育兩兒 侯佩岑：擔心不完</a></p>
+                                <span>坦言是很會擔心的母親，不像很多媽媽會...</span>
+                            </div>
+                            <div class="news_list_text">
+                                <p><a href="#">兒帶槍毆人又攜毒 郭桂彬痛心</a></p>
+                                <span>「養不教父之過」，以《海波浪》一曲走...</span>
+                            </div>
+                            <div class="news_list_text">
+                                <p><a href="#">阿KEN導演處女作 周董現身挺</a></p>
+                                <span>「戀愛iNG」耗時5年完成，圈內好友ELL...</span>
+                            </div>
+                            <div class="news_list_text">
+                                <p><a href="#">37歲結婚 最美空姐曝做人進度</a></p>
+                                <span>林佩瑤去年閃嫁「冠軍名廚」，透露目前...</span>
+                            </div>
+                            <div class="news_list_text">
+                                <p><a href="#">臺灣在家薪水最高的工作</a></p>
+                                <span>SocialMediaEase Sponsored</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news_content" id="news_content_4">
+                        <div class="news_img">
+                            <a href="#"><img src="img/news1-4.JPG"></a>
+                        </div>
+                        <div class="news_list">
+                            <div class="news_list_text">
+                                <p><a href="#">被插隊嗆聲 女這招阿婆秒安靜</a></p>
+                                <span>出聲阻止後，對方竟還叫她「讓一下」，...</span>
+                            </div>
+                            <div class="news_list_text">
+                                <p><a href="#">睡覺掀尪枕頭 見裡面一幕崩潰</a></p>
+                                <span>兒子要躺在那顆枕頭時，她都會大喊不要...</span>
+                            </div>
+                            <div class="news_list_text">
+                                <p><a href="#">收件地址在罵人？網查完驚呆</a></p>
+                                <span>朋友請他寄到「林北卡好社區」，他一聽...</span>
+                            </div>
+                            <div class="news_list_text">
+                                <p><a href="#">網買零食 看到製造商地址後悔</a></p>
+                                <span>也太巧了，地址就在家旁邊，走路就可以...</span>
+                            </div>
+                            <div class="news_list_text">
+                                <p><a href="#">玩拉霸？投10元兌幣機掉萬元</a></p>
+                                <span>嚇到報警！像是中大獎，投了100元兌幣...</span>
+                            </div>
+                            <div class="news_list_text">
+                                <p><a href="#">防疫少外食 在家煮最安心</a></p>
+                                <span>家樂福線上購物 Sponsored</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news_content" id="news_content_5">
+                        <div class="news_img">
+                            <a href="#"><img src="img/news1-5.JPG"></a>
+                        </div>
+                        <div class="news_list">
+                            <div class="news_list_text">
+                                <p><a href="#">雙酚A下肚恐致癌 醫生教避免</a></p>
+                                <span>生活中雙酚A兩大來源：飲食容器及罐頭...</span>
+                            </div>
+                            <div class="news_list_text">
+                                <p><a href="#">實測：7口家僅嬤沒事 洗手關鍵</a></p>
+                                <span>結果驚人，僅2小時小阪先生把身上的螢...</span>
+                            </div>
+                            <div class="news_list_text">
+                                <p><a href="#">BMI正常肉鬆垮 專家4習慣增肌</a></p>
+                                <span>營養師提醒：沒運動習慣的人如BMI指數...</span>
+                            </div>
+                            <div class="news_list_text">
+                                <p><a href="#">2周甩3.6kg 3餐「排毒瘦肚湯」</a></p>
+                                <span>利用假日沒壓力，助身體排出老廢物質身...</span>
+                            </div>
+                            <div class="news_list_text">
+                                <p><a href="#">下盤肉肉女孩怎穿？有雷別採</a></p>
+                                <span>穿錯更顯腫！下半身肉肉的胖腿及肥馬鞍...</span>
+                            </div>
+                            <div class="news_list_text">
+                                <p><a href="#">對不起！這款2TB超大容量隨身碟...</a></p>
+                                <span>WOGO Sponsored</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news_content" id="news_content_6">
+                        <div class="news_img">
+                            <a href="#"><img src="img/news1-6.JPG"></a>
+                        </div>
+                        <div class="news_list">
+                            <div class="news_list_text">
+                                <p><a href="#">為愛輪迴「三生三世」唯美畫面</a></p>
+                                <span>如神話般愛情，劇中迪麗熱巴輪迴三輩子...</span>
+                            </div>
+                            <div class="news_list_text">
+                                <p><a href="#">30歲擁幸福 柯佳嬿曝1年低潮</a></p>
+                                <span>榮獲金中女主角後，曾經對表演產生倦怠...</span>
+                            </div>
+                            <div class="news_list_text">
+                                <p><a href="#">大馬賣「台味」炒飯 當地人讚</a></p>
+                                <span>超搭當地口味，蝦米跟蔬菜香味濃郁，屏...</span>
+                            </div>
+                            <div class="news_list_text">
+                                <p><a href="#">彰化天空版麥田 鄭明典揭異象</a></p>
+                                <span>奇景～群組瘋傳，其實只是高積雲擾動出...</span>
+                            </div>
+                            <div class="news_list_text">
+                                <p><a href="#">地表最深地鐵站 走到就累慘了</a></p>
+                                <span>壯觀！位在北韓平壤，深度達190公尺全...</span>
+                            </div>
+                            <div class="news_list_text">
+                                <p><a href="#">2020台灣燈會在台中</a></p>
+                                <span>臺中市政府新聞局 Sponsored</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="essay">
+                    <div class="essay_tittle">
+                        <ul>
+                            <li><a href="#">熱門</a></li>
+                            <li><a href="#">微熱門</a></li>
+                            <li><a href="#">新奇</a></li>
+                            <li><a href="#">吃喝玩樂</a></li>
+                            <li><a href="#">流行</a></li>
+                            <li><a href="#">熱搜貨</a></li>
+                        </ul>
+                    </div>
+                    <div class="essay_list">
+                        <div class="essay_list_left">
+                            <div class="essay_list_img"><img src="img/essay1-1.jpg"></div>
+                            <div class="essay_list_text">
+                                <p><a href="#">觀點頭書：台灣口罩實名制權事件最成功-的相反</a></p>
+                                <span>新型冠狀病毒武漢肺炎疫情持續延燒，台灣社會口罩一罩難求，為阻卻民眾囤積，政府推「實名制」限量販售口罩制度。行政院長蘇貞昌大</span>
+                            </div>
+                        </div>
+                        <div class="essay_list_right">
+                            <div class="essay_list_text">
+                                <p><a href="#">肚子胖得像懷孕？飯後用1物，當天排出體內黑油！狠鏟7K油肉</a></p>
+                                <span>【王氏燃脂茶】早晨空腹喝一杯，燃燒體內脂肪，效果堪比吸指數！</span>
+                            </div>
+                            <div class="essay_list_img"><img src="img/essay1-2.jpg"></div>
+                        </div>
+                        <div class="essay_list_left">
+                            <div class="essay_list_img"><img src="img/essay1-3.jpg"></div>
+                            <div class="essay_list_text">
+                                <p><a href="#">習近平被喻名崇禎皇帝命運翻版 亡國前瘟疫大流行</a></p>
+                                <span>[新頭殼newtalk]中國新型冠狀病毒感染的武漢肺炎疫情，一發不可收拾，該國國家主席習近平被指政權搖搖欲墜，中國網友還把習近平比喻</span>
+                            </div>
+                        </div>
+                        <div class="essay_list_left">
+                            <div class="essay_list_img"><img src="img/essay1-4.jpg"></div>
+                            <div class="essay_list_text">
+                                <p><a href="#">媒根效應？金孫與結縭12年妻子離婚 女王「氣噗噗」</a></p>
+                                <span>英國王室再爆震撼彈！繼哈利跟媒根出走後，英國王位第15順位繼承人菲利普斯（Peter Phillips）與加拿大籍妻子奧特姆（Autumn Phillips）</span>
+                            </div>
+                        </div>
+                        <div class="essay_list_left">
+                            <div class="essay_list_img"><img src="img/essay1-5.jpg"></div>
+                            <div class="essay_list_text">
+                                <p><a href="#">越南超辣理髮店「帝王服務」老司機：該洗頭了</a></p>
+                                <span>現在理髮廳生存不易，因此祭出各種優惠搶客，也有理髮廳選擇專攻一個客群，越南就有一間專門接待男性的理髮廳在往上爆紅，因為店員全</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="other">
+                <div class="tv"><a href="#"><img src="img/tv.JPG"></a></div>
+                <div class="ad">
+                    <div class="ad_tittle">
+                        <span><a>優質好物</a></span>
+                        <ul>
+                            <li onmouseover="ad1()"><a href="#">熱烈夯品</a></li>
+                            <li onmouseover="ad1()" id="ad_1"><a href="#">熱烈夯品</a></li>
+                            <li onmouseover="ad2()"><a href="#">挑戰低價</a></li>
+                            <li onmouseover="ad2()" id="ad_2"><a href="#">挑戰低價</a></li>
+                        </ul>
+                    </div>
+                    <div class="ad_contents" id="ad_contents_img_1">
+                        <div class="ad_contents_img">
+                            <a href="#"><img src="img/ad1.JPG"></a>
+                        </div>
+                    </div>
+                    <div class="ad_contents" id="ad_contents_img_2">
+                        <div class="ad_contents_img">
+                            <a href="#"><img src="img/ad2.JPG"></a>
+                        </div>
+                    </div>
+                </div>
+                <footer>
+                    <ul>
+                        <li><a href="#">服務條款(更新)</a></li>
+                        <li><a href="#">隱私權(更新)</a></li>
+                        <li><a href="#">服務中心</a></li>
+                        <li><a href="#">家庭網路安全</a></li>
+                        <li><a href="#">網路行銷</a></li>
+                        <li><a href="#">中小企業行銷</a></li>
+                        <li><a href="#">Yahoo奇摩徵才</a></li>
+                        <li><a href="#">Yahoo奇摩官方部落格</a></li>
+                        <li><a href="#">Yahoo奇摩粉絲團</a></li>
+                    </ul>
+                    <div class="arrow_up"><a href="#"><img src="img/arrow-up.png"></a></div>
+                </footer>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

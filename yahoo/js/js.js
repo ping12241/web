@@ -55,17 +55,17 @@ function newsout() {
     }
 }
 
-function ad1() {
-    document.getElementById("ad_contents_img_1").style.display="block";
-    document.getElementById("ad_1").style.display="block";
-    document.getElementById("ad_contents_img_2").style.display="none";
-    document.getElementById("ad_2").style.display="none";
+function sale1() {
+    document.getElementById("sale_contents_img_1").style.display="block";
+    document.getElementById("sale_1").style.display="block";
+    document.getElementById("sale_contents_img_2").style.display="none";
+    document.getElementById("sale_2").style.display="none";
 }
-function ad2() {
-    document.getElementById("ad_contents_img_1").style.display="none";
-    document.getElementById("ad_1").style.display="none";
-    document.getElementById("ad_contents_img_2").style.display="block";
-    document.getElementById("ad_2").style.display="block";
+function sale2() {
+    document.getElementById("sale_contents_img_1").style.display="none";
+    document.getElementById("sale_1").style.display="none";
+    document.getElementById("sale_contents_img_2").style.display="block";
+    document.getElementById("sale_2").style.display="block";
 }
 
 

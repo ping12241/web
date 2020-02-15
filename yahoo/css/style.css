@@ -550,30 +550,30 @@ table td a:hover {
     height: 1150px;
     padding: 0 5px;
 }
-.ad {
+.sale {
     width: 100%;
     margin-top: 10px;
 }
 .other .tv img {
     width: 100%;
 }
-.ad_tittle {
+.sale_tittle {
     padding-left: 10px;
     display: flex;
     justify-content: space-between;
     background-color: #f1f1f1;
     border: 1px solid #cecece;
 }
-.ad_tittle span a {
+.sale_tittle span a {
     line-height: 40px;
     font-size: 18px;
     color: #666666;;
 }
-.ad_tittle ul {
+.sale_tittle ul {
     list-style: none;
     margin-right: -1px;   
 }
-.ad_tittle li {
+.sale_tittle li {
     float: left;
     width: 90px;
     height: 42px;
@@ -582,11 +582,11 @@ table td a:hover {
     margin-left: -1px;
     margin-bottom: -1px;
 }
-.ad_tittle a {
+.sale_tittle a {
     color: #000000;
     line-height: 40px;
 }
-#ad_1, #ad_2 {
+#sale_1, #sale_2 {
     margin-left: -90px;
     background-color: white;
     border: 1px solid #cecece;
@@ -594,25 +594,25 @@ table td a:hover {
     border-bottom: 1px solid white;
     cursor: pointer;
 }
-#ad_1 a, #ad_2 a {
+#sale_1 a, #sale_2 a {
     color: #7300FF;
     font-weight: bold;
     line-height: 32px;
 }
-#ad_2 {
+#sale_2 {
     display: none;
 }
-.ad_contents {
+.sale_contents {
     width: 100%;
     background-color: white;
     border-left: 1px solid #cecece;
     border-right: 1px solid #cecece;
     border-bottom: 1px solid #cecece;
 }
-.ad_contents_img img {
+.sale_contents_img img {
     width: 100%;
 }
-#ad_contents_img_2 {
+#sale_contents_img_2 {
     display: none;
 }
 footer {

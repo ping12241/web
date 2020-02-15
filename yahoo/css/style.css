@@ -20,6 +20,7 @@ header {
     position: fixed;
     background-color: #2d1152;
     width: 100%;
+    z-index: 1;
     min-width: 1080px;
 }
 .top_nav {
@@ -287,7 +288,6 @@ table td a:hover {
     justify-content: space-between;
 }
 .side_bar {
-    position: fixed;
     width: 150px;
     min-width: 150px;
     height: 800px;
@@ -338,7 +338,7 @@ table td a:hover {
 .main {
     width: 53%;
     margin: 0 10px;
-    margin-left: 160px;
+    margin-left: 10px;
 }
 .top_news {
     display: flex;

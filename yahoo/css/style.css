@@ -76,7 +76,7 @@ header {
 #lang {
     display: none;
     position: absolute;
-    width: 620px;
+    width: 40%;
     height: 380px;
     right: 0;
     margin-right: 170px;

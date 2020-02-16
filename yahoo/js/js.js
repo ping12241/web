@@ -2,9 +2,11 @@ document.onclick=open;
 function open(e) {
     var target = e.target.id; //獲得觸發事件元素
     if (target == "language") { 
+        document.getElementById("langbg").style.display="block";
         document.getElementById("lang").style.display="block";
     } 
     else {
+        document.getElementById("langbg").style.display="none";
         document.getElementById("lang").style.display="none";
     }
 }

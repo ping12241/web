@@ -67,19 +67,23 @@ header {
     font-weight: bold;
 }
 .top_nav_right li.tw {
-    width: 40px;
-    height: 15px;
-    background-image: url(../img/taiwan.png);
     cursor: pointer;
     margin-left: 5px;
 }
-#lang {
+#langbg {
     display: none;
     position: absolute;
-    width: 40%;
-    height: 380px;
-    right: 0;
-    margin-right: 170px;
+    width: 78vw;
+    height: 100vh;
+    margin: 0 auto;
+    z-index: 2;
+    min-width: 1080px;
+}
+#lang {
+    display: none;
+    float: right;
+    width: 600px;
+    height: 370px;
     margin-top: 30px;
     z-index: 1;
     padding: 0 30px;

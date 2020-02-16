@@ -137,11 +137,14 @@ table td a:hover {
     display: flex;
     justify-content: space-between;
 }
-.bar .logo img {
-    width: 130px;
+.bar .logo {
     margin-left: 10px;
     margin-top: 5px;
-    margin-right: 12px;
+    margin-right: 18px;
+}
+.bar .logo img {
+    width: 100%;
+    
 }
 .bar_right {
     width: 100%;
@@ -379,6 +382,9 @@ table td a:hover {
     width: 100%;
     margin-top: 10px;
 }
+.news_img img {
+    width: 100%;
+}
 .news .news_tittle ul {
     list-style: none;
     display: flex;
@@ -433,7 +439,7 @@ table td a:hover {
 }
 .news_content {
     width: 100%;
-    height: 320px;
+    height: 315px;
     padding: 10px 15px;
     background-color: white;
     border-left: 1px solid #cecece;
@@ -444,8 +450,9 @@ table td a:hover {
     justify-content: space-between;
 }
 .news_list {
-    width: 300px;
+    width: 45%;
     padding: 5px;
+    padding-top: 0px;
     margin-left: 10px;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -513,6 +520,9 @@ table td a:hover {
     border-right: 1px solid #cecece;
     border-bottom: 1px solid #cecece;
 }
+.essay_list_img img {
+    width: 100%;
+}
 .essay_list_left {
     padding: 10px;
     height: 125px;
@@ -521,8 +531,9 @@ table td a:hover {
     border-bottom: 1px solid #cecece;
 }
 .essay_list_text {
-    width: 450px;
+    width: 73%;
     margin-left: 10px;
+    margin-right: 10px;
 }
 .essay_list_text p a{
     color: rgb(65, 61, 255);
@@ -538,7 +549,7 @@ table td a:hover {
 }
 .essay_list_right {
     padding: 10px;
-    height: 190px;
+    height: 160px;
     display: flex;
     flex-direction: row;
     background-color: #f0f0f0;
@@ -552,7 +563,7 @@ table td a:hover {
     position: relative;
     width: 100%;
     min-width: 340px;
-    height: 1140px;
+    height: 1100px;
     padding: 0 5px;
 }
 .sale {

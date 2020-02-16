@@ -548,9 +548,10 @@ table td a:hover {
 }
 /*---------------------------------------*/
 .other {
+    position: relative;
     width: 100%;
     min-width: 340px;
-    height: 1150px;
+    height: 1140px;
     padding: 0 5px;
 }
 .sale {
@@ -619,7 +620,9 @@ table td a:hover {
     display: none;
 }
 footer {
-    margin-top: 560px;
+    width: 98%;
+    position: absolute;
+    bottom: 0;
     display: flex;
     justify-content: space-between;
 }

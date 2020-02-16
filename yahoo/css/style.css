@@ -107,7 +107,7 @@ header {
     justify-content: space-between;
 }
 table {
-    width: 540px;
+    width: 80%;
     margin-top: 5px;
     table-layout: fixed;
 }

@@ -74,16 +74,15 @@ header {
     display: none;
     position: absolute;
     width: 78vw;
-    height: 100vh;
+    z-index: 1;
     margin: 0 auto;
-    z-index: 2;
     min-width: 1080px;
 }
 #lang {
     display: none;
     float: right;
-    width: 600px;
-    height: 370px;
+    width: 52%;
+    height: 380px;
     margin-top: 30px;
     z-index: 1;
     padding: 0 30px;
@@ -96,7 +95,7 @@ header {
     color: #4b4b4b;
 }
 .word {
-    width: 540px;
+    width: 100%;
     height: 50px;
     line-height: 50px;
     font-weight: bold;

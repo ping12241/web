@@ -1,5 +1,6 @@
 document.onclick=open;
-function open(e) {
+function open() {
+    e = window.event;
     var target = e.target.id; //獲得觸發事件元素
     if (target == "language") { 
         document.getElementById("langbg").style.display="block";

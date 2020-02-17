@@ -7,7 +7,6 @@
 
 body {
     background-color: #FAFAFC;
-    margin: 0 auto;
 }
 a {
     text-decoration: none;
@@ -67,15 +66,11 @@ header {
 .top_nav_right {
     float: right;
 }
-.top_nav_right li:first-child {
-    margin-right: 10px;
-}
 .top_nav_right a {
     font-weight: bold;
 }
 .top_nav_right li.tw {
     cursor: pointer;
-    margin-left: 5px;
 }
 .top_nav_right li.tw img {
     width: 40px;
@@ -134,6 +129,7 @@ table td a:hover {
 }
 /*---------------------------------------*/
 .bar {
+    width: 100vw;
     min-width: 1200px;
     background-color: #FAFAFC;
 }
@@ -142,7 +138,6 @@ table td a:hover {
     width: 1200px;
     min-width: 1200px;
     margin: 0 auto;
-    background-color: #FAFAFC;
     padding: 15px 0;
     display: flex;
     justify-content: space-between;
@@ -165,10 +160,10 @@ table td a:hover {
 }
 /*---------------------------------------*/
 .search_in {
-    width: 680px;
+    min-width: 680px;
 }
 .searchbar {
-    width: 640px;
+    max-width: 640px;
     background-color: white;
     border: 1px solid #a3a3a3;
     border-radius: 20px;
@@ -207,6 +202,7 @@ table td a:hover {
 }
 /*---------------------------------------*/
 .loginbar {
+    min-width: 250px;
     float: right;
     padding-right: 5px;
     margin-top: 12px;
@@ -223,7 +219,7 @@ table td a:hover {
     margin-right: 20px;
 }
 .loginbar li:last-child {
-    margin-right: 0px;
+    margin-right: 3px;
 }
 .loginbar li a {
     font-size: 13px;
@@ -247,6 +243,7 @@ table td a:hover {
 }
 /*---------------------------------------*/
 .hot_search ul {
+    min-width: 1034px;
     list-style: none;
 }
 .hot_search li {

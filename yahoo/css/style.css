@@ -25,6 +25,7 @@ header {
 .top_nav_bg {
     background-color: #2d1152;
     width: 100%;
+    min-width: 1080px;
 }
 .top_nav {
     width: 1200px;

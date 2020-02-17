@@ -77,10 +77,10 @@ header {
 #langbg {
     display: none;
     position: absolute;
-    width: 78vw;
+    width: 1200px;
+    min-width: 1080px;
     z-index: 1;
     margin: 0 auto;
-    min-width: 1080px;
 }
 #lang {
     display: none;

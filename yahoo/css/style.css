@@ -7,7 +7,6 @@
 
 body {
     background-color: #FAFAFC;
-    width: 100vw;
     margin: 0 auto;
 }
 a {
@@ -18,6 +17,8 @@ a {
     min-width: 1200px;
 }
 header {
+    top: 0;
+    left: 0;
     position: fixed;
     width: 100vw;
     min-width: 1200px;
@@ -63,6 +64,9 @@ header {
     margin-top: 3px;
     margin-left: 5px;
 }
+.top_nav_right {
+    float: right;
+}
 .top_nav_right li:first-child {
     margin-right: 10px;
 }
@@ -74,6 +78,7 @@ header {
     margin-left: 5px;
 }
 .top_nav_right li.tw img {
+    width: 40px;
     vertical-align: middle;
 }
 #langbg {
@@ -242,7 +247,6 @@ table td a:hover {
 }
 /*---------------------------------------*/
 .hot_search ul {
-    min-width: 1200px;
     list-style: none;
 }
 .hot_search li {
@@ -289,7 +293,6 @@ table td a:hover {
 }
 /*---------------------------------------*/
 .content {
-    height: 100px;
     width: 1200px;
     min-width: 1200px;
     margin: 0 auto;

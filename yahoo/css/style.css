@@ -20,6 +20,7 @@ a {
 header {
     position: fixed;
     width: 100vw;
+    min-width: 1080px;
     z-index: 1;
 }
 .top_nav_bg {
@@ -85,7 +86,7 @@ header {
 #lang {
     display: none;
     float: right;
-    width: 52%;
+    width: 620px;
     height: 380px;
     margin-top: 30px;
     z-index: 1;
@@ -99,7 +100,7 @@ header {
     color: #4b4b4b;
 }
 .word {
-    width: 100%;
+    width: 560px;
     height: 50px;
     line-height: 50px;
     font-weight: bold;
@@ -111,7 +112,7 @@ header {
     justify-content: space-between;
 }
 table {
-    width: 100%;
+    width: 560px;
     margin-top: 5px;
     table-layout: fixed;
 }

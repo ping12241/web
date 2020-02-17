@@ -20,7 +20,6 @@ header {
     left: 0;
     position: fixed;
     width: 100vw;
-    min-width: 1200px;
     z-index: 1;
 }
 .top_nav_bg {

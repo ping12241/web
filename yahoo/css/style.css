@@ -7,20 +7,18 @@
 
 body {
     background-color: #FAFAFC;
-    min-width: 1080px;
 }
 a {
     text-decoration: none;
 }
 .wrapper {
     max-width: 100vw;
-    min-width: 1080px;
-    height: 100vh;
+    min-width: 1200px;
 }
 header {
     position: fixed;
     width: 100vw;
-    min-width: 1080px;
+    min-width: 1200px;
     z-index: 1;
 }
 .top_nav_bg {
@@ -30,7 +28,7 @@ header {
 }
 .top_nav {
     width: 1200px;
-    min-width: 1080px;
+    min-width: 1200px;
     margin: 0 auto;
     height: 28px;
     display: flex;
@@ -128,7 +126,7 @@ table td a:hover {
 }
 /*---------------------------------------*/
 .bar {
-    min-width: 1080px;
+    min-width: 1200px;
     background-color: #FAFAFC;
 }
 .bar_in {

@@ -3,10 +3,13 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Microsoft JhengHei;
+    border: #000000 solid 1px;
 }
 
 body {
     background-color: #FAFAFC;
+    width: 100%;
+    min-width: 1080px;
 }
 a {
     text-decoration: none;
@@ -38,6 +41,7 @@ header {
 }
 .top_nav ul {
     list-style: none;
+    width: 1200px;
     min-width: 1200px;
 }
 .top_nav li {

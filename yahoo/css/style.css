@@ -25,7 +25,6 @@ header {
 .top_nav_bg {
     background-color: #2d1152;
     width: 100%;
-    min-width: 1080px;
 }
 .top_nav {
     width: 1200px;
@@ -201,8 +200,8 @@ table td a:hover {
 }
 /*---------------------------------------*/
 .loginbar {
-    width: 255px;
     float: right;
+    padding-right: 5px;
     margin-top: 12px;
 }
 .loginbar img {

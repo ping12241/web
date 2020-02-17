@@ -38,6 +38,7 @@ header {
 }
 .top_nav ul {
     list-style: none;
+    min-width: 1200px;
 }
 .top_nav li {
     margin-right: 20px;
@@ -241,6 +242,7 @@ table td a:hover {
 }
 /*---------------------------------------*/
 .hot_search ul {
+    min-width: 1200px;
     list-style: none;
 }
 .hot_search li {

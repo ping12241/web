@@ -7,6 +7,8 @@
 
 body {
     background-color: #FAFAFC;
+    width: 100vw;
+    margin: 0 auto;
 }
 a {
     text-decoration: none;
@@ -158,10 +160,10 @@ table td a:hover {
 }
 /*---------------------------------------*/
 .search_in {
-    width: 65%;
+    width: 680px;
 }
 .searchbar {
-    width: 95%;
+    width: 640px;
     background-color: white;
     border: 1px solid #a3a3a3;
     border-radius: 20px;
@@ -170,7 +172,7 @@ table td a:hover {
 .searchbar input {
     font-size: 18px;
     padding: 8px;
-    width: 85%;
+    width: 520px;
     color: #666666;
     border: 0;
 }
@@ -288,7 +290,7 @@ table td a:hover {
 .content {
     height: 100px;
     width: 1200px;
-    min-width: 1080px;
+    min-width: 1200px;
     margin: 0 auto;
     padding-top: 128px;
     display: flex;
@@ -618,7 +620,7 @@ table td a:hover {
     border-bottom: 1px solid #cecece;
 }
 .sale_contents_img img {
-    width: 370px;
+    width: 365px;
 }
 #sale_contents_img_2 {
     display: none;

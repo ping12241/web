@@ -150,11 +150,10 @@ table td a:hover {
     width: 138px;
 }
 .bar_right {
-    width: 100%;
+    width: 1050px;
     height: 80px;
 }
 .bar_top {
-    width: 100%;
     display: flex;
     justify-content: space-between;
 }

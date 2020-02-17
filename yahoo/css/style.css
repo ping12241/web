@@ -13,19 +13,22 @@ a {
     text-decoration: none;
 }
 .wrapper {
-    width: 100%;
-    max-height: 1000px;
+    max-width: 100vw;
     min-width: 1080px;
 }
 header {
     position: fixed;
-    background-color: #2d1152;
     width: 100%;
     z-index: 1;
     min-width: 1080px;
 }
+.top_nav_bg {
+    background-color: #2d1152;
+    width: 100%;
+    min-width: 1080px;
+}
 .top_nav {
-    width: 79%;
+    width: 1200px;
     min-width: 1080px;
     margin: 0 auto;
     height: 28px;
@@ -124,12 +127,12 @@ table td a:hover {
 }
 /*---------------------------------------*/
 .bar {
-    width: 100%;
+    min-width: 1080px;
     background-color: #FAFAFC;
 }
 .bar_in {
     height: 100px;
-    width: 80%;
+    width: 1200px;
     min-width: 1080px;
     margin: 0 auto;
     background-color: #FAFAFC;
@@ -143,8 +146,7 @@ table td a:hover {
     margin-right: 18px;
 }
 .bar .logo img {
-    width: 100%;
-    
+    width: 138px;
 }
 .bar_right {
     width: 100%;
@@ -286,7 +288,7 @@ table td a:hover {
 /*---------------------------------------*/
 .content {
     height: 100px;
-    width: 80%;
+    width: 1200px;
     min-width: 1080px;
     margin: 0 auto;
     padding-top: 128px;
@@ -343,7 +345,7 @@ table td a:hover {
 }
 /*---------------------------------------*/
 .main {
-    width: 53%;
+    width: 640px;
     margin: 0 10px;
     margin-left: 10px;
 }
@@ -379,11 +381,8 @@ table td a:hover {
     border-bottom: 35px solid transparent;
 }
 .news {
-    width: 100%;
+    width: 640px;
     margin-top: 10px;
-}
-.news_img img {
-    width: 100%;
 }
 .news .news_tittle ul {
     list-style: none;
@@ -438,7 +437,7 @@ table td a:hover {
     display: none;
 }
 .news_content {
-    width: 100%;
+    width: 640px;
     height: 315px;
     padding: 10px 15px;
     background-color: white;
@@ -450,10 +449,10 @@ table td a:hover {
     justify-content: space-between;
 }
 .news_list {
-    width: 45%;
+    width: 320px;
     padding: 5px;
     padding-top: 0px;
-    margin-left: 10px;
+    margin-left: 15px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -480,7 +479,7 @@ table td a:hover {
 
 /*---------------------------------------*/
 .eassay {
-    width: 100%;
+    width: 640px;
 }
 .essay_tittle {
     margin-top: 15px;
@@ -514,14 +513,11 @@ table td a:hover {
     cursor: pointer;
 }
 .essay_list {
-    width: 100%;
+    width: 640px;
     background-color: white;
     border-left: 1px solid #cecece;
     border-right: 1px solid #cecece;
     border-bottom: 1px solid #cecece;
-}
-.essay_list_img img {
-    width: 100%;
 }
 .essay_list_left {
     padding: 10px;
@@ -531,7 +527,7 @@ table td a:hover {
     border-bottom: 1px solid #cecece;
 }
 .essay_list_text {
-    width: 73%;
+    width: 450px;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -549,7 +545,7 @@ table td a:hover {
 }
 .essay_list_right {
     padding: 10px;
-    height: 160px;
+    height: 190px;
     display: flex;
     flex-direction: row;
     background-color: #f0f0f0;
@@ -561,17 +557,14 @@ table td a:hover {
 /*---------------------------------------*/
 .other {
     position: relative;
-    width: 100%;
+    width: 380px;
     min-width: 340px;
-    height: 1100px;
+    height: 1130px;
     padding: 0 5px;
 }
 .sale {
-    width: 100%;
+    width: 370px;
     margin-top: 10px;
-}
-.other .tv img {
-    width: 100%;
 }
 .sale_tittle {
     padding-left: 10px;
@@ -619,20 +612,20 @@ table td a:hover {
     display: none;
 }
 .sale_contents {
-    width: 100%;
+    width: 370px;
     background-color: white;
     border-left: 1px solid #cecece;
     border-right: 1px solid #cecece;
     border-bottom: 1px solid #cecece;
 }
 .sale_contents_img img {
-    width: 100%;
+    width: 370px;
 }
 #sale_contents_img_2 {
     display: none;
 }
 footer {
-    width: 98%;
+    width: 370px;
     position: absolute;
     bottom: 0;
     display: flex;

@@ -10,9 +10,11 @@ a {
 header {
     width: 100%;
     background: #000;
+    min-width: 970px;
 }
 .nav {
     width: 970px;
+    min-width: 970px;
     margin: 0px auto;
     display: flex;
     justify-content: space-between; 
@@ -46,6 +48,7 @@ header {
 /*------------------------------*/
 .content {
     width: 970px;
+    min-width: 970px;
     margin: 0px auto;
 }
 .top {
@@ -68,7 +71,7 @@ header {
 }
 .banner img {
     margin-top: 20px;
-    width: 100%;
+    width: 950px
 }
 .content_in {
     margin-top: 20px;
@@ -149,7 +152,7 @@ header {
     text-decoration: underline;
 }
 .m_in_t img {
-    width: 100%;
+    width: 138px;
 }
 .m_in_b a {
     line-height: 26px;
@@ -162,7 +165,7 @@ header {
     float: right;
 }
 .top_right img {
-    width: 100%;
+    width: 160px;
 }
 .top_right ul {
     display: flex;
@@ -185,7 +188,7 @@ header {
     justify-content: flex-end;
 }
 .pagetop img {
-    width: 100%;
+    width: 74px;
 }
 .bottom_in {
     padding: 0px 50px;
@@ -217,6 +220,7 @@ header {
 /*------------------------------*/
 footer {
     width: 100%;
+    min-width: 970px;
     display: flex;
     align-items: flex-end;
     background-color: #000000;

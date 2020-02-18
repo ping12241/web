@@ -20,7 +20,7 @@ a {
 header {
     top: 0;
     left: 0;
-    position: fixed;
+    position: sticky;
     width: 100vw;
     min-width: 1200px;
     z-index: 1;
@@ -291,7 +291,6 @@ table td a:hover {
     width: 1200px;
     min-width: 1200px;
     margin: 0 auto;
-    padding-top: 128px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;

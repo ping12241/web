@@ -56,7 +56,7 @@ header {
 }
 .nav_logo img {
     width: 21px;
-    vertical-align: text-top;
+    vertical-align: text-bottom;
 }
 .searchbar {
     width: 400px;
@@ -88,7 +88,6 @@ header {
 }
 /*-----------------------------------*/
 ul.user li {
-    margin-top: 5px;
     float: left;
     padding: 2px 12px;
 }
@@ -374,6 +373,7 @@ a.user_time {
 /*-----------------------------------*/
 .content_other {
     width: 250px;
+    height: 800px;
 }
 .birthday {
     width: 250px;

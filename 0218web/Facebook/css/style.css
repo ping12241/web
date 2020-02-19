@@ -15,13 +15,11 @@ ul {
     list-style: none;
 }
 .wrapper {
-    top: 0;
-    left: 0;
-    min-width: 1320px;
+    min-width: 1200px;
     width: 100%;
     height: 100vh;
-    min-height: 800px;
-    overflow-y: hidden;
+    min-height: 850px;
+    position: relative;
 }
 header {
     position: sticky;
@@ -30,14 +28,14 @@ header {
     width: 100%;
     height: 40px;
     z-index: 1;
-    min-width: 1320px;
+    min-width: 1200px;
     background: #4267b2;
     display: flex;
     justify-content: flex-end;
 }
 .topnav {
     width: 86%;
-    min-width: 1320px;
+    min-width: 1200px;
 }
 .nav {
     width: 68%;
@@ -132,13 +130,13 @@ ul.user li.text:hover {
 }
 /*-----------------------------------*/
 .content_wrapper { 
-    min-width: 1320px; 
+    min-width: 1200px;
     display: flex;
     justify-content: flex-end;
 }
 .content {
     width: 86%;
-    min-width: 1320px;
+    min-width: 1200px;
     display: flex;
     justify-content: space-between;
 }
@@ -373,7 +371,6 @@ a.user_time {
 /*-----------------------------------*/
 .content_other {
     width: 250px;
-    height: 800px;
 }
 .birthday {
     width: 250px;
@@ -586,15 +583,16 @@ footer p {
     color: rgb(80, 80, 80);
 }
 /*-----------------------------------*/
-.chat {
+#chat {
     right: 0;
     width: 200px;
     height: 99vh;
     min-height: 800px;
     overflow-y: scroll;
+    display: none;
     border-left: 1px solid rgb(197, 197, 197);
 }
-.chat::-webkit-scrollbar {
+#chat::-webkit-scrollbar {
     display: none;
 }
 ul.char_item {
@@ -632,4 +630,42 @@ ul.char_item li.title:hover {
     background: none;
     border: none;
     cursor: initial;
+}
+
+#chat_down {
+    position: absolute;
+    display: block;
+    right: 0;
+    bottom: 0;
+    margin-right: 30px;
+    width: 200px;
+    height: 40px;
+    padding: 5px 10px;
+    border-top: 1px solid #797979;
+    border-right: 1px solid #797979;
+    border-left: 1px solid #797979;
+    background-color: rgb(238, 238, 238);
+}
+#chat_down a {
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+}
+
+@media screen and (min-width:1200px) {
+    #chat {
+        display: block;
+    }
+    #chat_down {
+        display: none;
+    }
+
+}
+@media screen and (max-width:1200px) {
+    #chat {
+        display: none;
+    }
+    #chat_down {
+        display: block;
+    }
 }

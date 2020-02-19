@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link href="img/Facebook_icon.png" rel="icon" type="text/icon">
+    <script src="js/js.js"></script>
     <title>Facebook</title>
 </head>
 <body>
@@ -133,7 +134,7 @@
                             <div class="content_text_in">
                                 <p>建議使用解析度1920*1080觀看哦！<br>
                                 高度則依瀏覽螢幕最高為主<br>
-                                最小支援1366*800 <br>
+                                最小支援1200*800 （聊天室會縮小）<br>
                                 移動到中間的內容可以滾哦！捲軸被藏起來了，<br>
                                 右邊的聊天室也可以滾～<br>
                                 </p>
@@ -365,7 +366,7 @@
                         </footer>
                     </div> 
                 </div>
-                <div class="chat">
+                <div id="chat">
                     <ul class="char_item">
                         <li class="title"><a>你的粉絲專業</a></li>
                         <li><a href="#"><img src="img/facebook.png">Facebook</a></li>
@@ -406,8 +407,8 @@
                     </ul>
                 </div>
             </div>
-        </div>
-        
+        </div>  
+        <div id="chat_down" onclick="openup()"><a href="#">聊天室（99）</a></div>
     </div>
 </body>
-</html>
+</html> 

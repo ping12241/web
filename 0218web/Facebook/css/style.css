@@ -39,6 +39,7 @@ header {
 }
 .nav {
     width: 68%;
+    min-width: 900px;
     height: 38px;
     display: flex;
     align-items: center;

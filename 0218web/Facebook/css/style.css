@@ -127,7 +127,8 @@ ul.user li.text:hover {
     border: 0.5px solid #415683;
 }
 /*-----------------------------------*/
-.content_wrapper {   
+.content_wrapper { 
+    min-width: 1320px; 
     display: flex;
     justify-content: flex-end;
 }
@@ -140,6 +141,7 @@ ul.user li.text:hover {
 .content_in {
     margin-top: 10px;
     width: 68%;
+    min-width: 900px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -165,8 +167,8 @@ ul.sidebar li {
     justify-content: space-between;
 }
 ul.sidebar .more img {
-    float: right;
     width: 15px;
+    height: 15px;
     opacity: 0;
 }
 ul.sidebar li:nth-child(2) {
@@ -402,6 +404,7 @@ a.user_time {
 }
 .fans_title img {
     width: 15px;
+    height: 15px;
     cursor: pointer;
 }
 .fans_in {
@@ -503,8 +506,9 @@ ul.fans_items li a:hover {
     font-weight: bold;
     font-size: 14px;
 }
-.game img {
+.game_title img {
     width: 15px;
+    height: 15px;
     cursor: pointer;
 }
 .game_in {
@@ -574,12 +578,10 @@ footer p {
 }
 /*-----------------------------------*/
 .chat {
-    position: sticky;
-    top: 0;
     right: 0;
     width: 200px;
     height: 100vh;
-    padding: 10px 0px;
+    padding-top: 10px;
     overflow-y: scroll;
     border-left: 1px solid rgb(197, 197, 197);
 }

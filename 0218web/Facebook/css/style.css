@@ -20,6 +20,7 @@ ul {
     min-width: 1320px;
     width: 100%;
     height: 100vh;
+    min-height: 800px;
     overflow-y: hidden;
 }
 header {
@@ -215,6 +216,7 @@ ul.sidebar li.lookmore:hover {
 .content_main {
     width: 100%;
     height: 100vh;
+    min-height: 800px;
     margin: 0px 2%;
     overflow-y: scroll;
 }
@@ -588,6 +590,7 @@ footer p {
     right: 0;
     width: 200px;
     height: 99vh;
+    min-height: 800px;
     overflow-y: scroll;
     border-left: 1px solid rgb(197, 197, 197);
 }

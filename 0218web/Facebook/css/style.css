@@ -19,7 +19,8 @@ ul {
     left: 0;
     min-width: 1320px;
     width: 100%;
-
+    height: 100vh;
+    overflow-y: hidden;
 }
 header {
     position: sticky;
@@ -550,13 +551,13 @@ ul.fans_items li a:hover {
 }
 .language button {
     text-align: center;
-    width: 25px;
+    width: 30px;
     height: 25px;
-    padding: 3px;
+    padding-bottom: 3px;
 }
 .language button img {
-    width: 12px;
-    height: 12px;
+    width: 10px;
+    height: 10px;
 }
 footer {
     padding: 5px;

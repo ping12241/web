@@ -18,6 +18,7 @@ ul {
     min-width: 1200px;
     width: 100%;
     height: 100vh;
+    min-height: 850px;
     position: relative;
 }
 header {
@@ -149,9 +150,6 @@ ul.user li.text:hover {
     justify-content: space-between;
 }
 ul.sidebar {
-    position: sticky;
-    top: 50px;
-    height: 600px;
     margin-right: 5px;
 }
 ul.sidebar li img {
@@ -215,7 +213,10 @@ ul.sidebar li.lookmore:hover {
 /*-----------------------------------*/
 .content_main {
     width: 100%;
+    height: 100vh;
+    min-height: 800px;
     margin: 0px 2%;
+    overflow-y: scroll;
 }
 .content_main::-webkit-scrollbar {
     display: none;
@@ -370,9 +371,6 @@ a.user_time {
 }
 /*-----------------------------------*/
 .content_other {
-    position: sticky;
-    top: 50px;
-    height: 700px;
     width: 250px;
 }
 .birthday {
@@ -587,11 +585,10 @@ footer p {
 }
 /*-----------------------------------*/
 #chat {
-    position: sticky;
-    top: 45px;
     right: 0;
     width: 200px;
     height: 100vh;
+    min-height: 850px;
     overflow-y: scroll;
     display: none;
     border-left: 1px solid rgb(197, 197, 197);
@@ -637,11 +634,10 @@ ul.char_item li.title:hover {
 }
 
 #chat_down {
-    position: sticky;
+    position: absolute;
     display: block;
     right: 0;
     bottom: 0;
-    margin-left: 80%;
     margin-right: 30px;
     width: 200px;
     height: 40px;

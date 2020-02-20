@@ -364,6 +364,9 @@ li.line:last-child::after {
     margin-bottom: 15px;
     cursor: pointer;
 }
+.post_more a {
+    font-size: 14px;
+}
 .post_more span {
     border-bottom: 1px solid #000000;
     margin-right: 10px;
@@ -378,7 +381,7 @@ li.line:last-child::after {
 .other {
     padding: 15px;
     width: 350px;
-    height: 650px;
+    max-height: 650px;
 }
 .other_title {
     margin-bottom: 20px;

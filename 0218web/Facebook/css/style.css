@@ -588,7 +588,7 @@ footer p {
     right: 0;
     width: 200px;
     height: 100vh;
-    min-height: 850px;
+    min-height: 800px;
     overflow-y: scroll;
     display: none;
     border-left: 1px solid rgb(197, 197, 197);

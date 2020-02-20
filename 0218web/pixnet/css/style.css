@@ -256,6 +256,7 @@ li.line:last-child::after {
 .new_post_button a {
     font-size: 13px;
 }
+/*---------------------------------*/
 .post_list p {
     margin: 10px 10px;
     margin-top: 20px;
@@ -369,6 +370,7 @@ li.line:last-child::after {
 .post_more:hover>a {
     opacity: 1;
 }
+/*---------------------------------*/
 .other {
     padding: 15px;
     width: 350px;

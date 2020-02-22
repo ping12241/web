@@ -163,7 +163,6 @@ footer ul.fans li:first-child::before {
         display: flex;
         flex-direction: column;
         margin: 0 auto;
-        border-bottom: 1px solid #c2c2c2;
     }
     .nav {
         min-width: 480px;
@@ -241,7 +240,6 @@ footer ul.fans li:first-child::before {
         display: flex;
         flex-direction: column;
         margin: 0 auto;
-        border-bottom: 1px solid #c2c2c2;
     }
     .nav {
         min-width: 320px;
@@ -309,7 +307,7 @@ footer ul.fans li:first-child::before {
         margin-top: 5px;
     }
     footer ul.fans li::before {
-        margin-left: 0px;
+        margin-left: 8px;
     }
     footer ul.fans li:first-child::before {
         margin-left: 0px;

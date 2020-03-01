@@ -1,4 +1,5 @@
 document.onkeydown=key;
+var a=0;
 
 function key(){
     var n = event.keyCode;
@@ -29,14 +30,17 @@ function key(){
         li.appendChild(left);
         li.appendChild(right);
         list.appendChild(li);
-        for(var i=0; i<all_list.length; i++){
+        document.getElementById("todos_input").value = "";
+        for(var i=0; i<all_list.length+a; i++){
             checkbox.setAttribute("id","box"+i);
             label.setAttribute("for","box"+i);
         }
-        document.getElementById("todos_input").value = "";
+        
     }
 }
+
 function delete_todos(obj) {
     var li = obj.parentNode.parentNode; 
     document.getElementById("list").removeChild(li);
+    a+=1;
 }

@@ -1,0 +1,136 @@
+@mixin flex ($direction: row, $align: flex-start, $justify: flex-start) {
+    display: flex;
+    flex-direction: $direction;
+    align-items: $align;
+    justify-content: $justify;
+}
+
+%shadow {
+    box-shadow: 2px 2px 5px #838383;
+}
+
+%p-10-30 {
+    padding: 10px 30px;
+}
+
+%pointer {
+    cursor: pointer;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Microsoft JhengHei;
+}
+
+body {
+    background-color: #eeeeee;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.wrapper {
+    width: 100%;
+    min-width: 1080px;
+}
+
+.todos {
+    width: 50%;
+    margin: 10px auto;
+    @include flex(column, center);
+    @extend %shadow;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    padding-bottom: 25px;
+    background-color: #fff8db;
+}
+
+.header_title {
+    font-size: 60px;
+    color: #7e4715;
+}
+
+.header input {
+    width: 80%;
+    border-radius: 50px;
+    font-size: 18px;
+    border: 1px solid #965315;
+    @extend %shadow;
+    @extend %p-10-30;
+}
+
+.todos_content {
+    width: 100%;
+    background-color: white;
+    @extend %p-10-30;
+}
+
+.todos_list {
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    @include flex(column, center);
+}
+
+.list_item {
+    width: 95%;
+    border-left: 10px solid #7e4715;
+    font-size: 18px;
+    padding: 15px;
+    margin: 15px;
+    @extend %shadow;
+    @include flex(row, center, space-between);
+}
+
+.list_left {
+    @include flex(row, center);
+}
+
+.list_right {
+    @include flex(row, center);
+}
+
+.list_box {
+    display: none;
+}
+
+.list_item label {
+    width: 24px;
+    height: 24px;    
+    margin-right: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/circle.png);
+    @extend %pointer;
+}
+
+.list_box:checked + .list_check {
+    background-image: url(../img/check.png);
+    @extend %pointer;
+}
+
+.list_box:checked ~ .list_content {
+    text-decoration: line-through;
+    font-weight: bold;
+}
+
+.list_delete {
+    width: 24px;
+    height: 24px;
+    border: 0;
+    background-color: white;
+    background-image: url(../img/delete.png);
+    @extend %pointer;
+}
+

@@ -6,6 +6,7 @@ function key(){
     var text = document.getElementById("todos_input").value;
     var all_list = document.getElementById("list").children; //所有元素
     if(n == 13 && text != "") { 
+        document.getElementById("todos_content").style.display="block";
         var li = document.createElement("li"); //新增元素
         var left = document.createElement("div");
         var right = document.createElement("div");

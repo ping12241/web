@@ -3,7 +3,7 @@
           box-shadow: 2px 2px 5px #838383;
 }
 
-.header input, .todos_content {
+.header input, #todos_content {
   padding: 10px 30px;
 }
 
@@ -74,14 +74,14 @@ li {
   border: 1px solid #965315;
 }
 
-.todos_content {
+#todos_content {
+  display: none;
   width: 100%;
   background-color: white;
 }
 
 .todos_list {
   width: 100%;
-  padding: 10px;
   background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -161,11 +161,11 @@ li {
   margin-right: 10px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(../img/circle.png);
+  background-image: url(../img/circle.svg);
 }
 
 .list_box:checked + .list_check {
-  background-image: url(../img/check.png);
+  background-image: url(../img/check.svg);
 }
 
 .list_box:checked ~ .list_content {
@@ -178,6 +178,8 @@ li {
   height: 24px;
   border: 0;
   background-color: white;
-  background-image: url(../img/delete.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../img/delete.svg);
 }
 /*# sourceMappingURL=style.css.map */

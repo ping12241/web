@@ -70,7 +70,8 @@ li {
     @extend %p-10-30;
 }
 
-.todos_content {
+#todos_content {
+    display: none;
     width: 100%;
     background-color: white;
     @extend %p-10-30;
@@ -78,7 +79,6 @@ li {
 
 .todos_list {
     width: 100%;
-    padding: 10px;
     background-color: white;
     @include flex(column, center);
 }
@@ -111,12 +111,12 @@ li {
     margin-right: 10px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(../img/circle.png);
+    background-image: url(../img/circle.svg);
     @extend %pointer;
 }
 
 .list_box:checked + .list_check {
-    background-image: url(../img/check.png);
+    background-image: url(../img/check.svg);
     @extend %pointer;
 }
 
@@ -130,7 +130,9 @@ li {
     height: 24px;
     border: 0;
     background-color: white;
-    background-image: url(../img/delete.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/delete.svg);
     @extend %pointer;
 }
 

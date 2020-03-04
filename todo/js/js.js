@@ -22,7 +22,6 @@ function key(){
         label.classList.add("list_check");
         content.classList.add("list_content");
         button.classList.add("list_delete");
-        button.setAttribute("onclick","delete_todos(this)");
         left.appendChild(checkbox); //添加內容
         left.appendChild(label);
         content.innerHTML = text;
@@ -32,20 +31,19 @@ function key(){
         li.appendChild(right);
         list.appendChild(li);
         document.getElementById("todos_input").value = "";
-        for(var i=  0; i < all_list.length + add; i++){
+        for(var i =  0; i < all_list.length + add; i++){
             checkbox.setAttribute("id","box"+i);
             label.setAttribute("for","box"+i);
+            button.setAttribute("id","list_del"+i);
+            var del = document.getElementById("list_del"+i);
         }
-        
+            del.addEventListener('click', function(){
+                var li = del.parentNode.parentNode;
+                list.removeChild(li);
+                add+=1;
+        });
     }
 }
-
-function delete_todos(obj) {
-    var li = obj.parentNode.parentNode; 
-    document.getElementById("list").removeChild(li);
-    add+=1;
-}
-
 
 
 

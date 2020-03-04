@@ -37,10 +37,10 @@ function key(){
             button.setAttribute("id","list_del"+i);
             var del = document.getElementById("list_del"+i);
         }
-            del.addEventListener('click', function(){
-                var li = del.parentNode.parentNode;
-                list.removeChild(li);
-                add+=1;
+        del.addEventListener('click', function(){
+            var li = del.parentNode.parentNode;
+            list.removeChild(li);
+            add+=1;
         });
     }
 }

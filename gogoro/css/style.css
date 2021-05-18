@@ -1,0 +1,216 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Microsoft JhengHei;
+}
+body{
+    background-color: #dbdada;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+#nav{
+    position:fixed;
+    width: 100%;
+    padding: 12px 20px;
+    background-color: #dfdfdf;
+}
+#nav ul{
+    vertical-align: middle;
+    padding: 0px 12%;
+}
+#nav li{
+    float: left;
+    list-style: none;
+}
+#nav a{
+    line-height: 38px;
+    color: #353535;
+    font-weight: bold;
+}
+#nav:hover{
+    background-color: white;
+}
+#nav a:hover{
+    color: rgb(52, 214, 243);
+}
+#nav img{
+    vertical-align: middle;
+    height: 35px;
+}
+#nav_left li{
+    float: left;
+    font-size: 18px;
+    padding-right: 50px;
+}
+#nav_right{
+    float: right;
+}
+#nav_right li{
+    font-size: 15px;
+    padding-left: 20px;
+}
+/*----------------------------------*/
+.banner{
+    width: 100%;
+    margin-bottom: 10px;
+    background: url(../img/banner.JPG);
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+.banner img{
+    width: 100%;
+}
+
+/*----------------------------------*/
+#content{
+    width: 75%;
+    margin: 0px auto;
+    background-color: white;
+}
+#content img{
+    width: 100%;
+}
+.content_1{
+    float: left;
+    width: 49%;
+    margin: 0.5%;
+}
+.content_2{
+    float: right;
+    width: 49%;
+    margin: 0.5%;
+}
+.content_3{
+    float: left;
+    width: 99%;
+    margin: 0.5%;
+}
+.content_4{
+    float: left;
+    width: 64%;
+    margin: 0.5%;
+}
+.content_5{
+    float: right;
+    width: 34%;
+    margin: 0.5%;
+}
+.content_6{
+    float: left;
+    width: 99%;
+    margin: 0.5%;
+}
+/*----------------------------------*/
+footer{
+    display: inline-block;
+    width: 100%;
+    background: rgb(66, 66, 66);
+}
+#footer_in{
+    width: 72%;
+    margin: 20px auto;
+}
+#search{
+    width: 300px;
+    margin-left: 36%;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    background-color: white;
+}
+#search input{
+    text-align: center;
+    width: 80%;
+    border: 0;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: white;
+    padding: 10px 5px;
+}
+#search button{
+    padding-right: 0px;
+    background: rgb(85, 85, 85);
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+#left{
+    float: left;
+    width: 74%;
+    height: 360px;
+}
+#left ul{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    float: left;
+    width: 33%;
+}
+#left .tittle{
+    color: white;
+    line-height: 30px;
+}
+
+#left li a{
+    color: #707070;
+    font-size: 14px;
+    font-weight: bold;
+}
+#right{
+    margin-top: 10px;
+    float: left;
+    width: 12%;
+    margin-left: 3%;
+}
+#right img{
+    margin: 2%;
+    width: 24%;
+}
+#note{
+    display: inline-block;
+    color: #707070;
+    width: 100%;
+    background: rgb(43, 43, 43);
+}
+#note_in{
+    width: 74%;
+    line-height: 60px;
+    font-weight: bold;
+    margin: 0px auto;
+}
+#note_in a{
+    font-size: 12px;
+    float: left;
+    padding-right: 10px;
+}
+#note li{
+    float: left;
+}
+#note li a{
+    font-size: 11px;
+    color: #707070;
+    padding: 0px 10px;
+}
+#left li a:hover,
+#note li a:hover{
+    text-decoration: underline;
+    color: #c4c4c4;
+}
+#left .tittle:hover{
+    text-decoration: none;
+    color: white;
+}
+select{
+    color: white;
+    font-size: 12px;
+    background: rgb(43, 43, 43);
+    border: 0;
+    float: right;
+    margin-top: 20px;
+}
